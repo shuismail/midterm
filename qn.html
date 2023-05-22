@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Table</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <form id="linkForm">
+    <label for="startRange">Start Range:</label>
+    <input type="text" id="startRange" value="1"><br><br>
+    
+    <label for="endRange">End Range:</label>
+    <input type="text" id="endRange" value="1"><br><br>
+    
+    <button type="button" onclick="displayTable()">Display Table</button>
+  </form>
+
+  <table id="linkTable">
+    <tr>
+      <th>Links</th>
+    </tr>
+  </table>
+
+  <script>
+    let data = [
+      "syllabus.html", "p1
